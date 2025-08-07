@@ -10,11 +10,11 @@
         <div class="flex flex-col items-center text-center">
           <!-- SVG Clipped Image -->
           <div class="w-48 h-fit mb-6">
-            <SvgBlob1 />
+            <SvgBlob2 />
           </div>
           <h3 class="text-xl font-semibold mb-2">Notre mission</h3>
           <div class="flex justify-center mb-3">
-            <span class="w-10 border-b-2 border-dotted border-[#728075]"></span>
+            <span class="w-16 border-b-5 border-dotted border-[#61848D]"></span>
           </div>
           <p class="text-gray-700 text-base">
             Notre objectif est de rendre chaque étape de l'apprentissage aussi enrichissante et positive que possible.
@@ -24,11 +24,11 @@
         <div class="flex flex-col items-center text-center">
           <!-- SVG Clipped Image -->
           <div class="w-48 h-fit mb-6">
-            <SvgBlob2 />
+            <SvgBlob1 />
           </div>
           <h3 class="text-xl font-semibold mb-2">Pour chaque enfant</h3>
           <div class="flex justify-center mb-3">
-            <span class="w-10 border-b-2 border-dotted border-[#728075]"></span>
+            <span class="w-16 border-b-5 border-dotted border-[#c6b2a8]"></span>
           </div>
           <p class="text-gray-700 text-base">
             Chaque activité est conçue pour répondre aux besoins uniques de chaque enfant, favorisant ainsi leur développement optimal.
@@ -42,7 +42,7 @@
           </div>
           <h3 class="text-xl font-semibold mb-2">Politique de la porte ouverte</h3>
           <div class="flex justify-center mb-3">
-            <span class="w-10 border-b-2 border-dotted border-[#728075]"></span>
+            <span class="w-16 border-b-5 border-dotted border-[#61848D]"></span>
           </div>
           <p class="text-gray-700 text-base">
             Nous vous invitons à découvrir notre centre d'orthopédagogie et à rencontrer notre équipe spécialisée afin de trouver ce qui vous convient le mieux.
