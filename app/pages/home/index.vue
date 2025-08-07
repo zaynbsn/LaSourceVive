@@ -1,6 +1,6 @@
 <template>
   <HomeHeadSection />
   <HomeActivitiesSection />
-  <HomeMissionSection />
+  <HomeMissionSection bg-color="#eef3f5" />
   <HomeTrustSection />
 </template>

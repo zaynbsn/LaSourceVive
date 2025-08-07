@@ -1,4 +1,4 @@
 <template>
-  <div class="bg-[#000]"></div>
-  <HomeMissionSection />
+  <HomeMissionSection bg-color="#C6B2A8"/>
+  <ServicesReviewsSection />
 </template>
