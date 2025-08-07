@@ -1,3 +1,4 @@
 <template>
-    <div></div>
+  <div class="bg-[#000]"></div>
+  <HomeMissionSection />
 </template>
