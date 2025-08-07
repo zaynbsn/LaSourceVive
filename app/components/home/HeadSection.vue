@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SvgTopWave } from '#components';
+import { NuxtLink, SvgTopWave } from '#components';
 
 </script>
 
@@ -13,9 +13,11 @@ import { SvgTopWave } from '#components';
       <p class="mt-6 text-xl md:text-3xl">L'orthopédagogie aux service des apprentissages</p>
       <p class="mt-4 text-xl md:text-3xl">Mieux se connaître pour mieux apprendre.</p>
 
-      <button class="mt-6 px-5 py-3 bg-[#cbb2a7] text-gray-800 rounded-lg hover:bg-[#b99e8d] transition">
-        Commencez dès aujourd'hui
-      </button>
+      <NuxtLink href="/contact">
+        <button class="mt-6 px-5 py-3 bg-[#cbb2a7] text-gray-800 rounded-lg hover:bg-[#b99e8d] transition">
+          Commencez dès aujourd'hui
+        </button>
+      </NuxtLink>
     </div>
 
     <!-- Bottom Wave -->
