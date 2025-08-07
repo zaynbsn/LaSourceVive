@@ -24,7 +24,7 @@
         </div>
 
         <div>
-          <a href="mailto:info@yourcompany.example.com" class="hover:underline">julie.orthopedagogie74@gmail.com</a>
+          <a href="mailto:info@yourcompany.example.com" class="hover:underline">julieboisson74@gmail.com</a>
         </div>
         
         <div>
