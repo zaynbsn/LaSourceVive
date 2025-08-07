@@ -7,7 +7,7 @@
         <path fill="#fefffe" fill-opacity="1" d="M0,224L120,192C240,160,480,96,720,96C960,96,1200,160,1320,192L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
       </svg>
       <!-- Title floating above the wave -->
-      <h2 class="absolute w-full text-center text-3xl md:text-5xl font-bold text-gray-800 top-4 lg:top-34 pt-10 pb-6 z-10 pointer-events-none select-none"
+      <h2 class="absolute w-full text-center text-3xl md:text-4xl mb-12 font-bold text-gray-800 top-4 lg:top-34 pt-10 pb-6 z-10 pointer-events-none select-none"
         style=" /* fine tune: move higher or lower with pt-10 or top-0/1/2 etc. */
 ">
         Mes services
