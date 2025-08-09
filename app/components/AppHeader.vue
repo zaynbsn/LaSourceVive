@@ -2,12 +2,12 @@
   <header class="bg-[#cbb2a7] text-gray-900 flex justify-center align-center">
     <div class="container">  
         <!-- Bande supérieure -->
-        <div class="flex justify-between items-center px-6 py-3 text-lg border-b border-[#b19e93]">
+        <!-- <div class="flex justify-between items-center px-6 py-3 text-lg border-b border-[#b19e93]">
         <span>Boisson Julie - Orthopédagogue certifiée</span>
         <a href="https://www.orthopedagogues.fr/" target="_blank" rel="noopener">
             <img src="/medias/logo-uof-300x187.png" alt="Logo" class="h-8" />
         </a>
-        </div>
+        </div> -->
 
         <!-- Menu principal -->
         <div class="flex items-center justify-between px-6 py-3">
@@ -21,7 +21,7 @@
             <NuxtLink to="/orthopedagogie">L'orthopédagogie</NuxtLink>
             <NuxtLink to="/about">Votre orthopédagogue</NuxtLink>
             <NuxtLink to="/services">Mes services</NuxtLink>
-            <NuxtLink to="/contact" class="bg-black text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition">Contactez moi</NuxtLink>
+            <NuxtLink to="/contact" class="bg-[#61848D] text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition">Contactez moi</NuxtLink>
         </nav>
 
         <!-- Bouton contact -->

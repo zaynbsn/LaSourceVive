@@ -30,15 +30,15 @@
       <div class="text-center md:text-right text-[#61848d] font-semibold mb-2">Orthopédagogue certifiée</div>
       <div class="flex flex-row items-center gap-2 mb-1">
         <img src="/medias/logo-efo.png" alt="EFO logo" class="h-8" />
-        <a href="https://www.ecoleorthopedagogie.fr/" target="_blank" rel="noopener" class="text-[#61848d] underline text-sm">
+        <a href="https://www.ecoleorthopedagogie.fr/" target="_blank" rel="noopener" class="text-[#61848d] hover:underline text-sm">
           Formée à l’EFO, École Française d’Orthopédagogie
         </a>
       </div>
       <div class="flex flex-row items-center gap-2">
         <img src="/medias/logo-uof-300x187.png" alt="UOF logo" class="h-8" />
-        <span class="text-[#61848d] text-sm">
+        <a href="https://www.orthopedagogues.fr/" target="_blank" rel="noopener" class="text-[#61848d] hover:underline text-sm">
           Membre de l'<strong>UOF</strong>, Union des Orthopédagogues de France
-        </span>
+        </a>
       </div>
     </div>
   </section>

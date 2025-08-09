@@ -1,6 +1,6 @@
 <template>
     <SvgTopWave />
     <OrthoWhatIsItSection />
-    <OrthoThisNotThisSection />
+    <!-- <OrthoThisNotThisSection /> -->
     <OrthoUofSection />
 </template>
