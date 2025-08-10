@@ -16,12 +16,40 @@
         <img src="/medias/logo-placeholder.png" alt="Logo" class="h-16" />
 
         <!-- Partie gauche -->
-        <nav class="flex items-center gap-6 text-lg">
-            <NuxtLink to="/home" class="font-semibold">Accueil</NuxtLink>
-            <NuxtLink to="/orthopedagogie">L'orthopédagogie</NuxtLink>
-            <NuxtLink to="/about">Votre orthopédagogue</NuxtLink>
-            <NuxtLink to="/services">Mes services</NuxtLink>
-            <NuxtLink to="/contact" class="bg-[#61848D] text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition">Contactez moi</NuxtLink>
+        <nav class="flex items-center gap-12 text-lg">
+            <NuxtLink 
+              to="/home"
+              :class="route.path === '/home' ? 'font-semibold text-[#61848D]' : 'font-semibold'"
+              class="hover:text-[#61848D] transition"
+            >
+              Accueil
+            </NuxtLink>
+
+            <NuxtLink
+              to="/orthopedagogie"
+              :class="route.path === '/orthopedagogie' ? 'font-semibold text-[#61848D]' : 'font-semibold'"
+              class="hover:text-[#61848D]"
+            >
+              L'orthopédagogie
+            </NuxtLink>
+
+            <NuxtLink 
+              to="/about"
+              :class="route.path === '/about' ? 'font-semibold text-[#61848D]' : 'font-semibold'"
+              class="hover:text-[#61848D]"
+            >
+              Votre orthopédagogue
+            </NuxtLink>
+            
+            <NuxtLink 
+              to="/services"
+              :class="route.path === '/services' ? 'font-semibold text-[#61848D]' : 'font-semibold'" 
+              class="hover:text-[#61848D]"
+            >
+              Mes services
+            </NuxtLink>
+            
+            <NuxtLink to="/contact" class="bg-[#61848D] text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition"> Contactez moi</NuxtLink>
         </nav>
 
         <!-- Bouton contact -->
@@ -32,5 +60,5 @@
 </template>
 
 <script setup>
-// rien ici pour l’instant
+const route = useRoute()
 </script>
