@@ -13,6 +13,20 @@
         Mes services
       </h2>
     </div>
+
+    <div class="mb-32 container max-w-5xl mx-auto px-6">
+      <h2 class="text-xl md:text-2xl font-semibold mb-4">Qu'est ce que c'est ?</h2>
+      <p class="text-gray-800 mb-2">
+        L’orthopédagogie est une <span class="font-medium">science de l’éducation</span> qui intervient au près des personnes présentant des <span class="font-medium">difficultés</span>, notamment au cours de troubles de l’apprentissage.
+      </p>
+      <p class="text-gray-800 mb-2">
+        Elle s’appuie sur la conviction que <span class="font-medium">tout le monde peut apprendre.</span>
+      </p>
+      <p class="text-gray-800">
+        La pratique de l’orthopédagogue s’appuie sur la recherche en <span class="font-medium">didactique</span>, en <span class="font-medium">pédagogie</span> et <span class="font-medium">sciences cognitives</span> dont les neurosciences.
+      </p>
+    </div>
+
     <div class="container max-w-5xl mx-auto px-6">
       <div class="flex flex-col gap-10">
       <!-- Row 1 -->
