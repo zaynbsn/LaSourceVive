@@ -1,4 +1,4 @@
 <template>
-  <ServicesMissionSection bg-color="#C6B2A8"/>
+  <ServicesMissionSection bg-color="#dbbaa9"/>
   <ServicesReviewsSection />
 </template>

@@ -21,16 +21,16 @@ import SvgForms2 from '../svg/forms2.vue';
 
       <!-- Text content -->
       <div class="w-full md:w-1/2 flex flex-col justify-center items-start">
-        <h2 class="text-2xl md:text-3xl font-semibold mb-3 text-gray-800">Activités</h2>
-        <p class="text-base md:text-lg text-gray-700 mb-2 max-w-lg">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-3 text-[#61848d]">L'orthopédagogie</h2>
+        <p class="text-base md:text-lg text-[#61848d] mb-2 max-w-lg">
           Notre équipe est composée de professionnels qualifiés en orthopédagogie.
         </p>
-        <p class="text-base md:text-lg text-gray-700 mb-6 max-w-lg">
+        <p class="text-base md:text-lg text-[#61848d] mb-6 max-w-lg">
           Nous proposons des activités éducatives, ludiques et adaptées aux besoins spécifiques de chaque enfant.
         </p>
         <NuxtLink
-          to="/services" 
-          class="px-6 py-2 bg-[#728075] text-white rounded-full font-medium shadow hover:bg-[#5c665f] transition"
+          to="/orthopedagogie" 
+          class="px-6 py-2 bg-[#61848d] text-white rounded-full font-medium shadow hover:bg-[#5c665f] transition"
         >En savoir plus.</NuxtLink>
       </div>
     </div>

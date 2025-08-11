@@ -1,8 +1,8 @@
 <template>
-  <section class="max-w-5xl mx-auto px-4">
+  <section class="max-w-5xl mx-auto px-4 text-[#61848d]">
     <h2 class="text-3xl md:text-4xl font-bold mb-8">Mes formations</h2>
 
-    <ul class="list-disc list-inside text-base text-gray-700 space-y-1">
+    <ul class="list-disc list-inside text-base space-y-1">
       <li><span class="font-medium">MOOC L'attention, ça s'apprend</span> de Jean-Philippe Lachaux</li>
       <li>Approfondir la mémoire de travail – Johanna Haus et Laurène Piton</li>
       <li>Initiation à la Gestion Mentale, Mémoire, Outils, Capophée Vianney Montaner et Perrine Bigot.</li>

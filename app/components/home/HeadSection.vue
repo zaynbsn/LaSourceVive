@@ -9,15 +9,9 @@ import { NuxtLink, SvgTopWave } from '#components';
 
     <!-- Content -->
     <div class="relative z-10 text-black text-start max-w-6xl mx-auto">
-      <h1 class="text-4xl md:text-6xl font-semibold">Julie Boisson,<br> Orthopédagogue</h1>
-      <p class="mt-6 text-xl md:text-3xl">L'orthopédagogie aux service des apprentissages</p>
+      <h1 class="text-4xl md:text-6xl font-semibold">Julie Boisson,<br> Orthopédagogue certifiée</h1>
+      <p class="mt-6 text-xl md:text-3xl">L'orthopédagogie au service des apprentissages</p>
       <p class="mt-4 text-xl md:text-3xl">Mieux se connaître pour mieux apprendre.</p>
-
-      <NuxtLink href="/contact">
-        <button class="mt-6 px-5 py-3 bg-[#cbb2a7] text-gray-800 rounded-lg hover:bg-[#b99e8d] transition">
-          Commencez dès aujourd'hui
-        </button>
-      </NuxtLink>
     </div>
 
     <!-- Bottom Wave -->

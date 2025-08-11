@@ -14,17 +14,17 @@
       </h2>
     </div>
 
+    
     <div class="mb-32 container max-w-5xl mx-auto px-6">
-      <h2 class="text-xl md:text-2xl font-semibold mb-4">Qu'est ce que c'est ?</h2>
-      <p class="text-gray-800 mb-2">
-        L’orthopédagogie est une <span class="font-medium">science de l’éducation</span> qui intervient au près des personnes présentant des <span class="font-medium">difficultés</span>, notamment au cours de troubles de l’apprentissage.
-      </p>
-      <p class="text-gray-800 mb-2">
-        Elle s’appuie sur la conviction que <span class="font-medium">tout le monde peut apprendre.</span>
-      </p>
-      <p class="text-gray-800">
-        La pratique de l’orthopédagogue s’appuie sur la recherche en <span class="font-medium">didactique</span>, en <span class="font-medium">pédagogie</span> et <span class="font-medium">sciences cognitives</span> dont les neurosciences.
-      </p>
+      <h2 class="text-xl md:text-2xl font-semibold mb-12">Ce que je propose en tant qu'orthopédagogue</h2>
+      <div class="flex container max-w-5xl mx-auto flex-wrap mb-4 items-start justify-center">
+        <div class="w-1/3 flex justify-center align-center p-3 text-center">J'offre un environnement ou la confiance et l'écoute sans jugement sont une priorité</div>
+        <div class="w-1/3 flex justify-center align-center p-3 text-center">J'observe l'apprenant dans sa globalité pour découvir et comprendre ses mécanismes émotionnels et cognitifs et ses comportements</div>
+        <div class="w-1/3 flex justify-center align-center p-3 text-center">J'identifie son style d'apprentissage pour prendre appui sur ses forces</div>
+        <div class="w-1/3 flex justify-center align-center p-3 text-center">Je propose un accompagnement personnalisé basé sur ses talents pour faire cheminer l'apprennant vers l'autonomie</div>
+        <div class="w-1/3 flex justify-center align-center p-3 text-center">Je soutiens les parents démunis pendant le temps des devoirs. Je les rassures ou les oriente vers d'autres professionnels</div>
+        <div class="w-1/3 flex justify-center align-center p-3 text-center">Je fais le lien et je travaille ne collaboration avec les enseignants, les orthophonistes et tous les intervenants impliquésdans la vie de l'apprenant, pour tendre vers le but commun de son mieux être</div>
+      </div>
     </div>
 
     <div class="container max-w-5xl mx-auto px-6">
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="w-full md:w-2/3 flex flex-col items-center md:items-start text-center md:text-left">
-          <h3 class="text-xl font-semibold mb-2">Notre mission</h3>
+          <h3 class="text-xl font-semibold mb-2">Pour commencer</h3>
           <div class="flex justify-center md:justify-start mb-3">
             <span class="w-16 border-b-5 border-dotted border-[#61848D]"></span>
           </div>
@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="w-full md:w-2/3 flex flex-col items-center md:items-start text-center md:text-left md:pr-6">
-          <h3 class="text-xl font-semibold mb-2">Pour chaque enfant</h3>
+          <h3 class="text-xl font-semibold mb-2">L'accompagnement</h3>
           <div class="flex justify-center md:justify-start mb-3">
             <span class="w-16 border-b-5 border-dotted border-[#c6b2a8]"></span>
           </div>
@@ -71,7 +71,7 @@
           </div>
         </div>
         <div class="w-full md:w-2/3 flex flex-col items-center md:items-start text-center md:text-left">
-          <h3 class="text-xl font-semibold mb-2">Politique de la porte ouverte</h3>
+          <h3 class="text-xl font-semibold mb-2"><Label>L'offre Seniors</Label></h3>
           <div class="flex justify-center md:justify-start mb-3">
             <span class="w-16 border-b-5 border-dotted border-[#61848D]"></span>
           </div>

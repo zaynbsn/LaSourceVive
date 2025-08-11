@@ -1,29 +1,33 @@
 <template>
-  <section class="container max-w-5xl mx-auto md:-mt-16 pb-16 px-4 flex flex-col md:flex-row gap-12 items-center md:items-start">
+  <section class="container max-w-5xl mx-auto md:-mt-16 pb-16 px-4 flex flex-col md:flex-row gap-8 items-center md:items-start">
     <!-- Left Content -->
     <div class="flex-1">
-      <h2 class="text-3xl md:text-4xl font-bold mb-8">Qui suis-je ?</h2>
+      <h2 class="text-3xl md:text-4xl font-bold mb-8 text-[#61848D]">Mon parcours</h2>
       
-        <div class="mb-12">
-            <p class="text-gray-800 mb-5">
-                Après une première carrière de traductrice, je me suis formée au Canada á la <span class="font-medium">Maitresse d'Anglais</span>  depuis 19 ans et maman de 3 enfants, j'ai remi en question l'efficacite de blabalbalabl.
+        <div class="mb-12 text-[#61848D]">
+            <p class=" mb-3">
+                Après une première carrière de traductrice, je me suis formée au Canada à la pédagogie de l'enseignement aux jeunes enfants. <br /><span class="font-medium">"Maitresse d'Anglais"</span>  depuis 20 ans et maman de 3 enfants, j'ai, au fil des années, remis en question l'efficacite de ma façon de transmettre le savoir.
             </p>
-            <p class="text-gray-800 mb-5">
-                <span class="font-medium">Passionnée</span> par mon métier d’enseignante et animée de toujours en recherche d’outils pédagogiques, j’ai ressenti cette envie de relever et d’accompagner autrement.
+            <p class=" mb-3">
+                C'est une expérience de 3 années à l'école MeeO (structure qui scolarise des enfants neuro atypiques à Annecy le vieux), qui va me conduire à <span class="font-medium">l'orthopédagogie.</span>
             </p>
-            <p class="text-gray-800 mb-5">
-                J’ai découvert <span class="font-medium">l’orthopédagogie</span> et tout a pris sens.
+            <p class="">
+                Au cours de ma formation, je suis fascinée de découvrir mes propres fonctionnements cognitifs et émotionnels face aux apprentissages ainsi que ceux de mes collègues !
             </p>
-            <p class="text-gray-800 mb-5">
-                J’ai cette envie forte d’accompagner chaque personne et plus particulièrement les enfants à découvrir son fonctionnement. Ceci afin de gagner en confiance en soi, en estime de soi et de découvrir ses propres réussites !
+            <p class=" mb-3">
+                Tout devient clair :<ul class="ml-16 mb-4 -mt-4"><li>• à chacun sa manière de transmettre</li><li>• à chacun sa manière d'apprendre</li></ul>
             </p>
-            <p class="text-lg italic text-[#61848d] mb-8">
-              ” Mieux se connaître pour mieux apprendre ”
+
+            <p class=" mb-3">
+                En tant qu'orthopédagogue, je cultive la différence et m'interesse à l'apprennant dans sa globalité.
+            </p>
+            <p class=" mb-3">
+                Avec douceur, je vous guide dans la découverte de vos habitudes de travail, pour enrichir vos stratégies dapprentissage, ou vous en proposer de plus efficaces
             </p>
         </div>
     </div>
     <!-- Right Card -->
-    <div class="flex-shrink flex flex-col items-center md:items-end">
+    <div class="flex-shrink flex flex-col items-center md:items-end text-[#61848D]">
       <div class="mb-3">
         <img src="/medias/user-placeholder.png" class="w-48 h-48 object-cover rounded-xl" alt="Julie Boisson" />
       </div>

@@ -21,29 +21,32 @@ import { SvgTopWave } from '#components';
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div>
             <label class="block text-gray-700 mb-1">Nom*</label>
-            <input type="text" required class="w-full border border-[#c7b2a9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Votre nom" />
+            <input type="text" required class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Votre nom" />
           </div>
           <div>
             <label class="block text-gray-700 mb-1">Numéro de téléphone</label>
-            <input type="tel" class="w-full border border-[#c7b2a9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="+33" />
+            <input type="tel" class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="+33" />
           </div>
         </div>
         <div class="mt-5">
           <label class="block text-gray-700 mb-1">E-mail*</label>
-          <input type="email" required class="w-full border border-[#c7b2a9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="email@example.com" />
+          <input type="email" required class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="email@example.com" />
         </div>
         <div class="mt-5">
           <label class="block text-gray-700 mb-1">Sujet*</label>
-          <input type="text" required class="w-full border border-[#c7b2a9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Sujet" />
+          <input type="text" required class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Sujet" />
         </div>
         <div class="mt-5">
           <label class="block text-gray-700 mb-1">Question*</label>
-          <textarea required class="w-full border border-[#c7b2a9] px-3 py-2 min-h-[90px] rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Votre question"></textarea>
+          <textarea required class="w-full border border-[#dbbaa9] px-3 py-2 min-h-[90px] rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Votre question"></textarea>
         </div>
         <div class="mt-7 flex justify-end">
-          <button type="submit" class="bg-[#c7b2a9] text-[#232629] font-medium px-8 py-2 rounded transition hover:bg-[#a9938a] shadow">
-            Soumettre
-          </button>
+          <button
+          type="submit"
+          class="px-6 py-2 bg-[#dbbaa9] text-gray-700 rounded-full font-medium shadow hover:bg-[##e6c6b5] transition"
+          >
+            Envoyer
+        </button>
         </div>
       </form>
       <!-- Contact Info -->

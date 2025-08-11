@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-[#cbb2a7] text-gray-900 flex justify-center align-center">
+  <header class="bg-[#dbbaa9] text-gray-900 flex justify-center align-center">
     <div class="container">  
         <!-- Bande supérieure -->
         <!-- <div class="flex justify-between items-center px-6 py-3 text-lg border-b border-[#b19e93]">

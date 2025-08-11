@@ -5,4 +5,5 @@ import FormSection from '~/components/contact/FormSection.vue';
 
 <template>
     <ContactFormSection />
+    <SvgBottomWave color="#61848D" />
 </template>
