@@ -22,11 +22,8 @@ import SvgForms2 from '../svg/forms2.vue';
       <!-- Text content -->
       <div class="w-full md:w-1/2 flex flex-col justify-center items-start">
         <h2 class="text-2xl md:text-3xl font-semibold mb-3 text-[#61848d]">L'orthopédagogie</h2>
-        <p class="text-base md:text-lg text-[#61848d] mb-2 max-w-lg">
-          Notre équipe est composée de professionnels qualifiés en orthopédagogie.
-        </p>
-        <p class="text-base md:text-lg text-[#61848d] mb-6 max-w-lg">
-          Nous proposons des activités éducatives, ludiques et adaptées aux besoins spécifiques de chaque enfant.
+        <p class="text-base md:text-lg text-[#61848d] mb-5 max-w-lg">
+          L'orthopédagogie vise à soutenir et faciliter le processus d'apprentissage par la mise en place de stratégies adaptées au fonctionnement de chacun.
         </p>
         <NuxtLink
           to="/orthopedagogie" 
