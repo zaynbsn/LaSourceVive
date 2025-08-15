@@ -7,12 +7,13 @@
         <path fill="#fefffe" fill-opacity="1" d="M0,224L120,192C240,160,480,96,720,96C960,96,1200,160,1320,192L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
       </svg>
       <!-- Title floating above the wave -->
-      <h2 class="absolute w-full text-center text-3xl md:text-4xl mb-12 font-bold text-[#61848D] top-4 lg:top-34 pt-10 pb-6 z-10 pointer-events-none select-none"
+      <h2 class="absolute w-full text-center text-3xl md:text-4xl mb-12 font-bold text-[#61848D] top-4 lg:top-42 pt-10 pb-6 z-10 pointer-events-none select-none"
         style=" /* fine tune: move higher or lower with pt-10 or top-0/1/2 etc. */"
       >
         Mes services
       </h2>
     </div>
+
 
     
     <!-- <div class="mb-32 container max-w-5xl mx-auto px-6">
@@ -27,58 +28,12 @@
       </div>
     </div> -->
 
-    <section class="mb-16 container max-w-5xl mx-auto px-6">
-      <h2 class="text-2xl md:text-3xl font-semibold text-[#61848D] mb-12 text-center">
+    <section class="max-w-6xl mx-auto pb-16 px-4">
+      <h2 class="text-2xl md:text-3xl font-bold text-[#61848D] mb-12 text-center">
         Ce que je propose en tant qu’orthopédagogue
       </h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <div
-          v-for="(item, i) in blobs"
-          :key="i"
-          class="flex items-center justify-center"
-        >
-          <!-- Blob with text inside -->
-          <div class="relative flex flex-col items-center justify-center w-full max-w-[330px] h-[280px] mx-auto">
-            <svg
-              :class="`absolute left-0 top-0 w-full h-full`"
-              viewBox="0 0 340 270"
-              fill="none"
-            >
-              <defs>
-                <clipPath :id="`offerblob-clip-${i}`">
-                  <path
-                    v-if="i%3===0"
-                    d="M80,22Q115,7,150,25Q196,23,232,43Q309,81,276,148Q255,205,192,221Q119,244,64,202Q10,158,34,96Q53,33,80,22Z"
-                    />
-                  <path
-                    v-else-if="i%3===1"
-                    d="M80,37Q21,74,46,139Q66,207,135,216Q200,226,256,186Q313,141,290,79Q267,19,195,28Q130,36,80,37Z"
-                  />
-                  <path
-                    v-else
-                    d="M159,25Q224,10,245,69Q270,128,230,155Q192,186,127,221Q76,241,58,192Q38,139,50,75Q65,10,159,25Z"
-                  />
-                </clipPath>
-              </defs>
-              <rect
-                width="340" height="270"
-                :fill="item.color"
-                :clip-path="`url(#offerblob-clip-${i})`"
-              />
-            </svg>
-            <div
-              :style="`clip-path: url(#offerblob-clip-${i});`"
-              class="relative z-10 h-full w-full flex items-center"
-            >
-              <p
-                class="px-8 py-4 text-sm md:text-base text-[#232629] font-medium leading-relaxed text-center"
-                :class="item.textClass"
-                style="word-break: break-word;"
-              >{{ item.text }}</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    
+      <img src="/medias/servicesBlobs.png" draggable="false" />
     </section>
 
 
@@ -93,18 +48,18 @@
           </div>
         </div>
         <div class="w-full md:w-3/4 flex flex-col items-center md:items-start text-center md:text-left">
-          <h3 class="text-xl font-semibold mb-2 text-[#da9576]">Pour commencer</h3>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Pour commencer</h3>
           <div class="flex justify-center md:justify-start mb-3">
             <span class="w-16 border-b-5 border-dotted border-[#61848D]"></span>
           </div>
-          <h4 class="text-base font-medium mb-2 text-[#da9576]">L’Entretien téléphonique <span class="ml-2 italic">- offert -</span></h4>
+          <h4 class="text-base font-medium mb-2 text-gray-800">L’Entretien téléphonique <span class="ml-2 italic">- offert -</span></h4>
           <p class="text-[#61848d] text-base">
             Il vous permet d’exposer les raisons qui vous amènent à me consulter. <br />
             A votre écoute, je prends note de vos préoccupations et vous fait préciser le contexte de votre demande.<br />
             A la fin de cet échange, nous convenons d’un premier entretien orthopédagogique.<br />
             Vous recevez un mail de confirmation accompagné d’un questionnaire orthopédagogie à rapporter complété lors de ce premier RV. 
           </p>
-          <h4 class="text-base font-medium mb-2 mt-4 text-[#da9576]">Le premier entretien orthopédagogique  - 1h30 à 2h - 82€</h4>
+          <h4 class="text-base font-medium mb-2 mt-4 text-gray-800">Le premier entretien orthopédagogique  - 1h30 à 2h - 82€</h4>
           <p class="text-[#61848d] text-base">
             Sur RV, il se déroule au cabinet en présence de la famille.
             <br />C’est un moment d'échange privilégié où chacun pourra librement exprimer ses difficultés et ses ressentis.
@@ -121,17 +76,17 @@
           </div>
         </div>
         <div class="w-full md:w-3/4 flex flex-col items-center md:items-start text-center md:text-left md:pr-6">
-          <h3 class="text-xl font-semibold mb-2 text-[#da9576]">L'accompagnement</h3>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">L'accompagnement</h3>
           <div class="flex justify-center md:justify-start mb-3">
             <span class="w-16 border-b-5 border-dotted border-[#61848D]"></span>
           </div>
-          <h4 class="text-base font-medium mb-2 text-[#da9576]">En séances individuelles au cabinet</h4>
+          <h4 class="text-base font-medium mb-2 text-gray-800">En séances individuelles au cabinet</h4>
           <p class="text-[#61848d] text-base">
             élèves du primaire  50mn + 10mn de débriefing avec le parent   - 47€ -
             <br/>élèves du secondaires, étudiants, adultes	 - 1h  62€ - 
 							  - 1h30  84€ -
           </p>
-          <h4 class="text-base font-medium mb-2 mt-4 text-[#da9576]">En séances collectives au cabinet</h4>
+          <h4 class="text-base font-medium mb-2 mt-4 text-gray-800">En séances collectives au cabinet</h4>
           <p class="text-[#61848d] text-base">
             Ces séances peuvent être proposées en cas de demandes présentant des similarités 
             <br/> De 2 à 4 participants  - tarif sur mesure - 
@@ -139,12 +94,12 @@
             <br/> Le nombre et la fréquence des séances s’ajustent pour répondre aux besoins de chacun.
           </p>
           
-          <h4 class="text-base font-medium mb-2 mt-4 text-[#da9576]">Participation aux ESS  - 35€ -</h4>
+          <h4 class="text-base font-medium mb-2 mt-4 text-gray-800">Participation aux ESS  - 35€ -</h4>
           <p class="text-[#61848d] text-base">
             Sur demande, je peux participer aux réunions des Equipes de Suivi de Scolarisation.
           </p>
           
-          <h4 class="text-base font-medium mb-2 mt-4 text-[#da9576]">Temps d’observation en classe   - sur devis - </h4>
+          <h4 class="text-base font-medium mb-2 mt-4 text-gray-800">Temps d’observation en classe   - sur devis - </h4>
           <p class="text-[#61848d] text-base">
             Selon le cas, et avec l’accord de l’équipe enseignante, je peux effectuer des séances d'observation de l'apprenant en classe. 
           </p>
@@ -158,7 +113,7 @@
           </div>
         </div>
         <div class="w-full md:w-3/4 flex flex-col items-center md:items-start text-center md:text-left">
-          <h3 class="text-xl font-semibold mb-2 text-[#da9576]">Séniors   - tarif sur mesure -</h3>
+          <h3 class="text-xl font-semibold mb-2 text-gray-800">Séniors   - tarif sur mesure -</h3>
           <div class="flex justify-center md:justify-start mb-3">
             <span class="w-16 border-b-5 border-dotted border-[#61848D]"></span>
           </div>
@@ -191,36 +146,4 @@ defineProps({
     default: '#eef3f5'
   }
 })
-const blobs = [
-  {
-    text: "J'offre un environnement où la confiance et l’écoute sans jugement sont une priorité",
-    color: "#c7b2a9",
-    textClass: ""
-  },
-  {
-    text: "J’observe l’apprenant dans sa globalité pour découvrir et comprendre ses mécanismes émotionnels et cognitifs et ses comportements",
-    color: "#EFF3F4",
-    textClass: ""
-  },
-  {
-    text: "J’identifie son style d’apprentissage pour prendre appui sur ses forces",
-    color: "#60858d",
-    textClass: "text-white"
-  },
-  {
-    text: "Je propose un accompagnement personnalisé basé sur l’apprenant pour faire cheminer l’apprenant vers l’autonomie",
-    color: "#61848D",
-    textClass: "text-white"
-  },
-  {
-    text: "Je soutiens les parents démunis pendant la gestion des devoirs, je les rassure sur leur rôle d’aidants et/ou autres professionnels",
-    color: "#c7b2a9",
-    textClass: ""
-  },
-  {
-    text: "Je fais le lien et je travaille en collaboration avec les enseignants, les orthophonistes et tous les intervenants impliqués dans le suivi de l’élève ou du jeune adulte pour le rendre autonome et lui permettre de mieux être dans le monde et de son mieux réussir",
-    color: "#EFF3F4",
-    textClass: ""
-  }
-]
 </script>
