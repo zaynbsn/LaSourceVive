@@ -14,9 +14,10 @@
             <p class="">
                 Au cours de ma formation, je suis fascinée de découvrir mes propres fonctionnements cognitifs et émotionnels face aux apprentissages ainsi que ceux de mes collègues !
             </p>
-            <p class=" mb-3">
-                Tout devient clair :<ul class="ml-16 mb-4 -mt-4"><li>• à chacun sa manière de transmettre</li><li>• à chacun sa manière d'apprendre</li></ul>
+            <p class="">
+                Tout devient clair :
             </p>
+            <ul class="mb-4 ml-8 list-inside list-disc"><li> à chacun sa manière de transmettre</li><li> à chacun sa manière d'apprendre</li></ul>
 
             <p class=" mb-3">
                 En tant qu'orthopédagogue, je cultive la différence et m'interesse à l'apprennant dans sa globalité.
@@ -29,7 +30,7 @@
     <!-- Right Card -->
     <div class="flex-shrink flex flex-col items-center md:items-end text-[#61848D]">
       <div class="mb-3">
-        <img src="/medias/user-placeholder.png" class="w-48 h-48 object-cover rounded-xl" alt="Julie Boisson" />
+        <img src="/medias/julieRound.png" class="w-48 h-48 object-cover rounded-xl" alt="Julie Boisson" />
       </div>
       <div class="text-center md:text-right text-[#61848d] font-semibold mb-2">Orthopédagogue certifiée</div>
       <div class="flex flex-row items-center gap-2 mb-1">
