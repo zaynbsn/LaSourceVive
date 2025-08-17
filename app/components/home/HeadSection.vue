@@ -4,11 +4,11 @@ import { NuxtLink, SvgTopWave } from '#components';
 </script>
 
 <template>
-  <section class="relative overflow-hidden bg-cover bg-center" style="background-image: url('/medias/background-image-home-placeholder3.jpg'); background-color: #61848D;">
+  <section class="relative overflow-hidden bg-cover bg-center" style="background-image: url('/medias/background-image-home.jpeg'); background-color: #61848D;">
     <SvgTopWave />
-
+    <div style="background-image: url('/medias/background-image-home.jpeg'); background-color: #61848D; filter: blur(6px);"></div>
     <!-- Content -->
-    <div class="relative z-10 text-black text-start max-w-6xl mx-auto">
+    <div class="relative z-10 text-white text-start max-w-6xl mx-auto">
       <h1 class="text-4xl md:text-6xl font-semibold">Julie Boisson,<br> Orthopédagogue certifiée</h1>
       <p class="mt-6 text-xl md:text-3xl">L'orthopédagogie au service des apprentissages</p>
       <p class="mt-4 text-xl md:text-3xl">Mieux se connaître pour mieux apprendre.</p>
