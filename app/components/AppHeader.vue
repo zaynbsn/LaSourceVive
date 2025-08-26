@@ -13,7 +13,19 @@
         <div class="flex items-center justify-between px-6 py-3 z-40 w-full">
             
         <!-- Logo central -->
-        <img src="/medias/logo.svg" alt="Logo" class="absolute top-8 left-16 h-42 z-40" />
+        <!-- <img src="/medias/logo.svg" alt="Logo" class="absolute top-8 left-16 h-42 z-40" /> -->
+         <img
+          src="/medias/logo.svg"
+          alt="Logo"
+          class="z-40 transition-all duration-300
+                absolute
+                "
+          :class="isScrolled
+            ? 'top-2 left-5 h-16 w-auto'
+            : 'top-8 left-12 top-8 h-56 w-auto'
+          "
+          style="object-fit: contain;"
+        />
 
         <!-- Partie gauche -->
         <nav class="flex items-center justify-end gap-12 text-lg w-full">
@@ -60,9 +72,22 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted, computed } from 'vue'
 const route = useRoute()
 
 const headerBg = computed(() => {
   return route.path === '/home' ? '#eef2f5' : '#dbbaa9'
 });
+
+const isScrolled = ref(false)
+
+const onScroll = () => {
+  isScrolled.value = window.scrollY > 10 // or 0 if you want instant change
+}
+onMounted(() => {
+  window.addEventListener('scroll', onScroll)
+})
+onUnmounted(() => {
+  window.removeEventListener('scroll', onScroll)
+})
 </script>
