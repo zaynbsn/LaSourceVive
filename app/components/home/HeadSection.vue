@@ -5,7 +5,7 @@ import { NuxtLink, SvgTopWave } from '#components';
 
 <template>
   <section class="relative overflow-hidden bg-cover bg-center" style="background-image: url('/medias/background-image-home-edited8.jpg'); background-color: #61848D;">
-    <SvgTopWave class="z-10 mt-16" />
+    <SvgTopWave color="#eef2f5"/>
     <!-- <div style="background-image: url('/medias/background-image-home.jpeg'); background-color: #61848D; filter: blur(6px);">
     </div> -->
     <!-- <div class="absolute inset-0 bg-black/40 z-0"></div> -->

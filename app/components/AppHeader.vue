@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-[#eef2f5] text-gray-900 align-center z-40 fixed w-full">
+  <header class=" text-gray-900 align-center z-40 fixed w-full top-0" :style="{ backgroundColor: headerBg }">
     <div class="">  
         <!-- Bande supérieure -->
         <!-- <div class="flex justify-between items-center px-6 py-3 text-lg border-b border-[#b19e93]">
@@ -61,4 +61,8 @@
 
 <script setup>
 const route = useRoute()
+
+const headerBg = computed(() => {
+  return route.path === '/home' ? '#eef2f5' : '#dbbaa9'
+});
 </script>
