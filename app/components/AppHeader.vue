@@ -1,6 +1,6 @@
 <template>
-  <header class="bg-[#dbbaa9] text-gray-900 flex justify-center align-center">
-    <div class="container">  
+  <header class="bg-[#eef2f5] text-gray-900 align-center z-40 fixed w-full">
+    <div class="">  
         <!-- Bande supérieure -->
         <!-- <div class="flex justify-between items-center px-6 py-3 text-lg border-b border-[#b19e93]">
         <span>Boisson Julie - Orthopédagogue certifiée</span>
@@ -10,13 +10,13 @@
         </div> -->
 
         <!-- Menu principal -->
-        <div class="flex items-center justify-between px-6 py-3">
+        <div class="flex items-center justify-between px-6 py-3 z-40 w-full">
             
         <!-- Logo central -->
-        <img src="/medias/logo-placeholder.png" alt="Logo" class="h-16" />
+        <img src="/medias/logo.svg" alt="Logo" class="absolute top-8 left-16 h-42 z-40" />
 
         <!-- Partie gauche -->
-        <nav class="flex items-center gap-12 text-lg">
+        <nav class="flex items-center justify-end gap-12 text-lg w-full">
             <NuxtLink 
               to="/home"
               :class="route.path === '/home' ? 'font-semibold text-[#61848D]' : 'font-semibold'"
@@ -49,7 +49,7 @@
               Mes services
             </NuxtLink>
             
-            <NuxtLink to="/contact" class="bg-[#61848D] text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition"> Contactez moi</NuxtLink>
+            <NuxtLink to="/contact" class="bg-[#61848D] text-white px-4 py-2 rounded-full font-medium hover:opacity-90 transition"> Prendre contact</NuxtLink>
         </nav>
 
         <!-- Bouton contact -->

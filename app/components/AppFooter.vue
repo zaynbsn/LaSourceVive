@@ -34,7 +34,7 @@
 
       <!-- Logo (replace with your asset) -->
       <div class="mb-6">
-        <img src="/medias/logo-placeholder.png" alt="Your Logo" class="h-14 object-contain mx-auto opacity-90" />
+        <img src="/medias/logo.svg" alt="Your Logo" class="h-24 mt-8 object-contain mx-auto opacity-90" />
       </div>
 
       <!-- Copyright -->

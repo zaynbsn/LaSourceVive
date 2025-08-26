@@ -32,7 +32,7 @@
       <div class="mb-3">
         <img src="/medias/julieRound.png" class="w-48 h-48 object-cover rounded-xl" alt="Julie Boisson" />
       </div>
-      <div class="text-center md:text-right text-[#61848d] font-semibold mb-2">Orthopédagogue certifiée</div>
+      <div class="text-center md:text-right text-[#61848d] font-semibold mb-2">Julie BOISSON, Orthopédagogue certifiée</div>
       <div class="flex flex-row items-center gap-2 mb-1">
         <img src="/medias/logo-efo.png" alt="EFO logo" class="h-8" />
         <a href="https://www.ecoleorthopedagogie.fr/" target="_blank" rel="noopener" class="text-[#61848d] hover:underline text-sm">
