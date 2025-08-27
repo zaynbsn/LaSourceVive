@@ -1,7 +1,4 @@
-<script setup lang="ts">
-import { SvgTopWave } from '#components';
 
-</script>
 
 <template>
   <SvgTopWave />
@@ -13,7 +10,7 @@ import { SvgTopWave } from '#components';
     </h2>
     <div class="flex flex-col justify-center md:flex-row gap-12 md:gap-20">
       <!-- Contact Form -->
-      <form class="flex-1 bg-white rounded-xl border border-[#C6B2A8] px-6 py-7 max-w-2xl" @submit.prevent>
+      <form v-if="!isEmailSent" class="flex-1 bg-white rounded-xl border border-[#C6B2A8] px-6 py-7 max-w-2xl" @submit.prevent="sendMail">
         <p class="mb-5 text-gray-700">
           Contactez-nous pour tout ce qui concerne notre entreprise ou nos services.<br />
           Nous ferons de notre mieux pour vous répondre dans les plus brefs délais.
@@ -21,24 +18,24 @@ import { SvgTopWave } from '#components';
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div>
             <label class="block text-gray-700 mb-1">Nom*</label>
-            <input type="text" required class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Votre nom" />
+            <input type="text" v-model="template_param.NOM" name="NOM" required class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Votre nom" />
           </div>
           <div>
             <label class="block text-gray-700 mb-1">Numéro de téléphone</label>
-            <input type="tel" class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="+33" />
+            <input type="tel" v-model="template_param.PHONE" name="PHONE" class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="+33" />
           </div>
         </div>
         <div class="mt-5">
           <label class="block text-gray-700 mb-1">E-mail*</label>
-          <input type="email" required class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="email@example.com" />
+          <input type="email" v-model="template_param.EMAIL" name="EMAIL" required class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="email@example.com" />
         </div>
         <div class="mt-5">
           <label class="block text-gray-700 mb-1">Sujet*</label>
-          <input type="text" required class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Sujet" />
+          <input type="text" v-model="template_param.SUJET" name="SUJET" required class="w-full border border-[#dbbaa9] px-3 py-2 rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Sujet" />
         </div>
         <div class="mt-5">
           <label class="block text-gray-700 mb-1">Question*</label>
-          <textarea required class="w-full border border-[#dbbaa9] px-3 py-2 min-h-[90px] rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Votre question"></textarea>
+          <textarea required v-model="template_param.QUESTION" name="QUESTION" class="w-full border border-[#dbbaa9] px-3 py-2 min-h-[90px] rounded focus:outline-none focus:border-[#61848D] transition" placeholder="Votre question"></textarea>
         </div>
         <div class="mt-7 flex justify-end">
           <button
@@ -49,6 +46,12 @@ import { SvgTopWave } from '#components';
         </button>
         </div>
       </form>
+
+      <div v-else>
+        <p>Message envoyé avec succès !</p>
+        <p>Je vous contacterai dès que possible !</p>
+      </div>
+
       <!-- Contact Info -->
       <aside class="w-full mx-2 md:w-82 flex flex-col gap-5 ">
         <div class="font-semibold text-lg text-[#232629] mb-2">Mes informations</div>
@@ -77,3 +80,30 @@ import { SvgTopWave } from '#components';
     </div>
   </section>
 </template>
+<script setup>
+  import { SvgTopWave } from '#components';
+  import emailjs from '@emailjs/browser';
+
+  const config = useRuntimeConfig();
+  const inputFieldReset = ref(null);
+  let isEmailSent = ref(false)
+
+  let template_param = ref({
+    NOM: '',
+    EMAIL: '',
+    PHONE: '',
+    SUJET: '',
+    QUESTION: '',
+  })
+  const sendMail = () => {
+    // emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', form.value, 'USER_ID')
+    emailjs.send(config.public.emailServiceId, config.public.emailTemplateId, template_param.value, config.public.emailApiKey)
+    .then(() => {
+      inputFieldReset.value = " ";
+      isEmailSent.value = true
+    }, (error) => {
+      alert('Message not sent: ' + (error.text ?? JSON.stringify(error)))
+      console.log("error")
+    }); 
+  }
+</script>

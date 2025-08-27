@@ -10,4 +10,11 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  runtimeConfig: {
+    public: {
+      emailServiceId: process.env.EMAIL_SERVICE_ID,
+      emailTemplateId: process.env.EMAIL_TEMPLATE_ID,
+      emailApiKey: process.env.EMAIL_API_KEY
+    }
+  }
 })
