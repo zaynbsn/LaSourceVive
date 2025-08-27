@@ -39,7 +39,7 @@
 
       <!-- Copyright -->
       <div class="text-center w-full border-t border-[#333] pt-6 mt-2 text-base opacity-80 font-light">
-        Copyright © La Source Vive
+        Illustrations : Claude Ponti édition Ecole des loisirs <br /> Copyright © La Source Vive
       </div>
     </div>
   </footer>
