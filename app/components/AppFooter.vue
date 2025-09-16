@@ -38,9 +38,27 @@
       </div>
 
       <!-- Copyright -->
-      <div class="text-center w-full border-t border-[#333] pt-6 mt-2 text-base opacity-80 font-light">
-        Illustrations : Claude Ponti édition Ecole des loisirs <br /> Copyright © La Source Vive
+      <div class="text-center w-full   mt-2 text-base opacity-80 font-light">
+        Copyright © La Source Vive
       </div>
+      <div class="text-center w-full mt-2 pt-6 border-t border-[#333] text-base opacity-80 text-black">
+        Les illustrations sont tirée de livres de contes de Claude Ponti :
+      </div>
+      <a href="https://www.ecoledesloisirs.fr/livre/mille-secrets-poussins" target="_blank" class="text-center w-full mt-2 text-base opacity-80 font-light">
+        Mille secret de poussins, Claude Ponti, © 2005, École des loisirs
+      </a>
+      <a href="https://www.ecoledesloisirs.fr/livre/arbre-fin" target="_blank" class="text-center w-full mt-2 text-base opacity-80 font-light">
+        L’arbre sans fin, Claude Ponti, © 1992, École des loisirs
+      </a>
+      <a href="https://www.ecoledesloisirs.fr/livre/lile-zertes" target="_blank" class="text-center w-full mt-2 text-base opacity-80 font-light">
+        Sur l'îles des Zertes, Claude Ponti, © 1999, École des loisirs
+      </a>
+      <a href="https://www.ecoledesloisirs.fr/livre/arbre-fin" target="_blank" class="text-center w-full mt-2 text-base opacity-80 font-light">
+        Le chapeau à secret, Claude Ponti, © 1999, École des loisirs
+      </a>
+      <a href="https://www.ecoledesloisirs.fr/livre/enfances" target="_blank" class="text-center w-full mt-2 text-base opacity-80 font-light">
+        Couverture de Enfances, Claude Ponti, © 2018, École des loisirs
+      </a>
     </div>
   </footer>
 </template>
