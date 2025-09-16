@@ -3,7 +3,7 @@
     <div>
       <div class="flex items-center justify-between px-6 py-3 z-60 w-full relative">
         <!-- Logo (unchanged) -->
-        <NuxtLink to="/home" @click="closeMenu">
+        <NuxtLink to="/" @click="closeMenu">
           <img
             src="/medias/logo.svg"
             alt="Logo"
@@ -18,7 +18,7 @@
 
         <!-- Desktop NAV (hidden on mobile) -->
         <nav class="hidden lg:flex items-center justify-end gap-12 text-lg w-full">
-          <NuxtLink to="/home" :class="route.path === '/home' ? 'font-semibold text-[#61848D]' : 'font-semibold'" class="hover:text-[#61848D] transition">Accueil</NuxtLink>
+          <NuxtLink to="/" :class="route.path === '/' ? 'font-semibold text-[#61848D]' : 'font-semibold'" class="hover:text-[#61848D] transition">Accueil</NuxtLink>
           <NuxtLink to="/orthopedagogie" :class="route.path === '/orthopedagogie' ? 'font-semibold text-[#61848D]' : 'font-semibold'" class="hover:text-[#61848D]">L'orthopédagogie</NuxtLink>
           <NuxtLink to="/about" :class="route.path === '/about' ? 'font-semibold text-[#61848D]' : 'font-semibold'" class="hover:text-[#61848D]">Votre orthopédagogue</NuxtLink>
           <NuxtLink to="/services" :class="route.path === '/services' ? 'font-semibold text-[#61848D]' : 'font-semibold'" class="hover:text-[#61848D]">Mes services</NuxtLink>
@@ -43,7 +43,7 @@
           v-if="menuOpen"
           class="fixed top-0 left-0 w-full h-full bg-[#fff] bg-opacity-95 z-50 flex flex-col items-center pt-36 space-y-8 text-lg font-semibold"
         >
-          <NuxtLink to="/home" @click="closeMenu" :class="route.path === '/home' ? 'text-[#61848D]' : ''">Accueil</NuxtLink>
+          <NuxtLink to="/" @click="closeMenu" :class="route.path === '/' ? 'text-[#61848D]' : ''">Accueil</NuxtLink>
           <NuxtLink to="/orthopedagogie" @click="closeMenu" :class="route.path === '/orthopedagogie' ? 'text-[#61848D]' : ''">L'orthopédagogie</NuxtLink>
           <NuxtLink to="/about" @click="closeMenu" :class="route.path === '/about' ? 'text-[#61848D]' : ''">Votre orthopédagogue</NuxtLink>
           <NuxtLink to="/services" @click="closeMenu" :class="route.path === '/services' ? 'text-[#61848D]' : ''">Mes services</NuxtLink>
@@ -59,7 +59,7 @@
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 const route = useRoute()
 
-const headerBg = computed(() => route.path === '/home' ? '#eef2f5' : '#dbbaa9')
+const headerBg = computed(() => route.path === '/' ? '#eef2f5' : '#dbbaa9')
 const isScrolled = ref(false)
 
 const onScroll = () => { isScrolled.value = window.scrollY > 10 }
