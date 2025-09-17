@@ -11,7 +11,7 @@ import { NuxtLink, SvgTopWave } from '#components';
     <!-- <div class="absolute inset-0 bg-black/40 z-0"></div> -->
 
     <!-- Content -->
-    <div class="relative z-10 text-white text-start max-w-6xl mx-auto">
+    <div class="relative z-10 text-white text-center md:text-start max-w-6xl mx-auto">
       <h1 class="text-4xl md:text-6xl font-semibold font-open">Julie Boisson<br> Orthopédagogue certifiée</h1>
       <p class="mt-6 text-xl md:text-3xl">L'orthopédagogie au service des apprentissages</p>
       <p class="mt-4 text-xl md:text-3xl">Mieux se connaître pour mieux apprendre.</p>
