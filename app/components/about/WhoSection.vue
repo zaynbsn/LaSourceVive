@@ -27,23 +27,29 @@
             </p>
         </div>
     </div>
+
     <!-- Right Card -->
     <div class="flex-shrink flex flex-col items-center md:items-end text-[#61848D]">
       <div class="mb-3">
         <img src="/medias/julieRound.png" class="w-48 h-48 object-cover rounded-xl" alt="Julie Boisson" />
       </div>
-      <div class="text-center md:text-right text-[#61848d] font-semibold mb-2">Julie BOISSON, Orthopédagogue certifiée</div>
-      <div class="flex flex-row items-center gap-2 mb-1">
-        <img src="/medias/logo-efo.png" alt="EFO logo" class="h-8" />
-        <a href="https://www.ecoleorthopedagogie.fr/" target="_blank" rel="noopener" class="text-[#61848d] hover:underline text-sm">
-          Formée à l’EFO, École Française d’Orthopédagogie
-        </a>
-      </div>
-      <div class="flex flex-row items-center gap-2">
-        <img src="/medias/logo-uof-300x187.png" alt="UOF logo" class="h-8" />
-        <a href="https://www.orthopedagogues.fr/" target="_blank" rel="noopener" class="text-[#61848d] hover:underline text-sm">
-          Membre de l'<strong>UOF</strong>, Union des Orthopédagogues de France
-        </a>
+
+      <div class="text-center md:text-right text-[#61848d] font-semibold mb-2 w-full">Julie BOISSON, Orthopédagogue certifiée</div>
+      
+      <div class="flex flex-col gap-1 w-3/4 sm:w-full items-center md:items-end">
+        <div class="flex items-center gap-2">
+          <img src="/medias/logo-efo.png" alt="EFO logo" class="h-8" />
+          <a href="https://www.ecoleorthopedagogie.fr/" target="_blank" rel="noopener" class="text-[#61848d] hover:underline text-sm">
+            Formée à l’EFO, École Française d’Orthopédagogie
+          </a>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <img src="/medias/logo-uof-300x187.png" alt="UOF logo" class="h-8" />
+          <a href="https://www.orthopedagogues.fr/" target="_blank" rel="noopener" class="text-[#61848d] hover:underline text-sm">
+            Membre de l'<strong>UOF</strong>, Union des Orthopédagogues de France
+          </a>
+        </div>
       </div>
     </div>
   </section>
