@@ -2,7 +2,7 @@
   <section class="max-w-5xl mx-auto px-4 text-[#61848d]">
     <h2 class="text-3xl md:text-4xl font-bold mb-8">Mes formations continues</h2>
 
-    <ul class="list-disc text-base space-y-1">
+    <ul class="list-disc text-base space-y-1 ml-6 lg:ml-0">
       
       <li>
         2023
