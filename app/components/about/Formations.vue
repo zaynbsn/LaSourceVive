@@ -21,9 +21,7 @@
           <li>Formation La stimulation cognitive- Niveau Avancé - La Fabrique à Neurones</li>
           <li>Formation TND Jérome Bianchi</li>
         </ul>
-      </li>
-
-      
+      </li>      
       
       <li>
         2023
