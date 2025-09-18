@@ -42,7 +42,7 @@
         Copyright © La Source Vive
       </div>
       <div class="text-center w-full mt-2 pt-6 border-t border-[#333] text-base opacity-80 text-black">
-        Les illustrations sont tirée de livres de contes de Claude Ponti :
+        Les illustrations sont tirées de livres de contes de Claude Ponti :
       </div>
       <a href="https://www.ecoledesloisirs.fr/livre/mille-secrets-poussins" target="_blank" class="text-center w-full mt-2 text-base opacity-80 font-light">
         Mille secret de poussins, Claude Ponti, © 2005, École des loisirs

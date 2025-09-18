@@ -8,18 +8,18 @@
         2025
         <ul class="list-disc list-inside text-base space-y-1">
           <li>Webinaire Fonctions exécutives et apprentissages</li>
-          <li>Conférence : L’ouspsologie Pierre Paul Gagné</li>
+          <li>Conférence : L’oupsologie - Pierre Paul Gagné</li>
         </ul>
       </li>
 
       <li>
         2024
         <ul class="list-disc list-inside text-base space-y-1">
-          <li>Formation à la Gestions des écrans - journée thématique Sébastien Henrard</li>
-          <li>Conférence en ligne de Guy Sonnois . Retrouver le sens au coeur des apprentissages</li>
-          <li>Formation La motivation - Cédrine Sunyer</li>
-          <li>Formation La stimulation cognitive- Niveau Avancé - La Fabrique à Neurones</li>
-          <li>Formation TND Jérome Bianchi</li>
+          <li>Formation : Gestion des écrans - Sébastien Henrard</li>
+          <li>Conférence : Retrouver le sens au coeur des apprentissages L’ouspsologie - Guy Sonnois</li>
+          <li>Formation : La motivation - Cédrine Sunyer</li>
+          <li>Formation : La stimulation cognitive- Niveau Avancé - La Fabrique à Neurones</li>
+          <li>Formation : TND - Jérome Bianchi</li>
         </ul>
       </li>      
       
@@ -27,22 +27,22 @@
         2023
         <ul class="list-disc list-inside text-base space-y-1">
           <li>3ème colloque de l’orthopédagogie à Nice</li>
-          <li>Formation en ligne TDA/H - Association HypersSupers TDA/H France</li>
-          <li>MOOC Apprendre comment apprendre (Univ San Diego)</li>
+          <li>Formation : TDA/H - Association HypersSupers - TDA/H France</li>
+          <li>MOOC : Apprendre comment apprendre (Univ San Diego)</li>
         </ul>
       </li>
       
       <li>
         2022
         <ul class="list-disc list-inside text-base space-y-1">
-          <li>Motivation et projet de sens. Initiative & Formation Paris</li>
+          <li>Formation : Motivation et projet de sens - Initiative & Formation Paris</li>
         </ul>
       </li>
 
       <li>
         2021
         <ul class="list-disc list-inside text-base space-y-1">
-          <li>Parcours Approfondissement en Orthopédagogie</li>
+          <li>Parcours Approfondissement en Orthopédagogie - CFO</li>
         </ul>
       </li>
 

@@ -16,6 +16,7 @@ export default defineNuxtConfig({
       title: 'Julie Boisson - Orthopédagogie - Annecy',
       meta: [
         { name: 'description', content: 'Orthopédagogie à Annecy – Julie Boisson, orthopédagogue certifiée, propose un accompagnement personnalisé pour enfants, adolescents et adultes présentant des troubles ou difficultés d’apprentissage. Retrouvez confiance, motivation et autonomie grâce à une écoute bienveillante et des interventions adaptées à chaque profil.' },
+      
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

@@ -62,7 +62,7 @@
             <span class="w-16 border-b-5 border-dotted border-[#61848D]"></span>
           </div>
           <p class="text-base">
-            En couple ou en petit ateliers  <br /> Stimulation des capacités cognitives, de la mémorisation
+            En couple ou en petits ateliers  <br /> Stimulation des capacités cognitives, de la mémorisation
           </p>
         </div>
       </div>

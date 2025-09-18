@@ -57,13 +57,13 @@
               Il vous permet d’exposer les raisons qui vous amènent à me consulter. <br />
               A votre écoute, je prends note de vos préoccupations et vous fait préciser le contexte de votre demande.<br />
               A la fin de cet échange, nous convenons d’un premier entretien orthopédagogique.<br />
-              Vous recevez un mail de confirmation accompagné d’un questionnaire orthopédagogie à rapporter complété lors de ce premier RV. 
+              Vous recevez un mail de confirmation accompagné d’un questionnaire orthopédagogique à rapporter complété lors du RV. 
             </p>
-            <h4 class="text-base font-medium mb-2 mt-4 text-gray-800">Le premier entretien orthopédagogique  - 1h30 à 2h - 82€</h4>
+            <h4 class="text-base font-medium mb-2 mt-4 text-gray-800">Le premier entretien orthopédagogique  - 1h30 à 2h - 85€</h4>
             <p class="text-[#61848d] text-base">
               Sur RV, il se déroule au cabinet en présence de la famille.
-              <br />C’est un moment d'échange privilégié où chacun pourra librement exprimer ses difficultés et ses ressentis.
-              <br />Je vous présenterai l’orthopédagogie et ma façon d’accompagner. 
+              <br />C’est un moment d'échange privilégié où chacun peut librement exprimer ses difficultés et ses ressentis.
+              <br />Je vous présente l’orthopédagogie et ma façon d’accompagner. 
               <br />Ensemble, en nous appuyant sur le questionnaire orthopédagogique, sur les éventuels bilans effectués et sur mon expertise, nous pourrons cibler les besoins et les priorités et convenir de la mise en œuvre d’un suivi orthopédagogique. 
             </p>
           </div>
@@ -88,20 +88,23 @@
             </p>
             <h4 class="text-base font-medium mb-2 mt-4 text-gray-800">En séances collectives au cabinet</h4>
             <p class="text-[#61848d] text-base">
-              Ces séances peuvent être proposées en cas de demandes présentant des similarités 
+              Ces séances peuvent être proposées en cas de demandes présentant des similarités.
               <br/> De 2 à 4 participants  - tarif sur mesure - 
-              <br/> Sont compris dans les prestations: le temps de restitution des observations à la famille, la prise de contact avec les enseignants et autres spécialistes qui interviennent auprès de l'apprenant.
-              <br/> Le nombre et la fréquence des séances s’ajustent pour répondre aux besoins de chacun.
             </p>
             
             <h4 class="text-base font-medium mb-2 mt-4 text-gray-800">Participation aux ESS  - 35€ -</h4>
             <p class="text-[#61848d] text-base">
-              Sur demande, je peux participer aux réunions des Equipes de Suivi de Scolarisation.
+              Sur demande, je participe aux réunions des Equipes de Suivi de Scolarisation.
             </p>
             
             <h4 class="text-base font-medium mb-2 mt-4 text-gray-800">Temps d’observation en classe   - sur devis - </h4>
             <p class="text-[#61848d] text-base">
-              Selon le cas, et avec l’accord de l’équipe enseignante, je peux effectuer des séances d'observation de l'apprenant en classe. 
+              Selon le cas, et avec l’accord de l’équipe enseignante, j'effectue des séances d'observation de l'apprenant en classe. 
+              
+            </p>
+            <p class="text-[#61848d] text-base">
+              Sont compris dans les prestations: le temps de restitution des observations à la famille, la prise de contact avec les enseignants et autres spécialistes qui interviennent auprès de l'apprenant.
+              <br/> Le nombre et la fréquence des séances s’ajustent pour répondre aux besoins de chacun.  
             </p>
           </div>
         </div>
