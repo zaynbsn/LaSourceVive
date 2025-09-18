@@ -1,2 +1,3 @@
 User-Agent: *
-Disallow:
+Allow: /
+Sitemap: https://orthopedagogie-annecy.fr/sitemap.xml
