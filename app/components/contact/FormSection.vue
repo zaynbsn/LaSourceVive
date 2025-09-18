@@ -3,11 +3,11 @@
 <template>
   <SvgTopWave />
   <section class="container mx-auto px-4 -mt-12 md:-mt-24 pb-0">
-    <h2 class="w-full text-center text-3xl md:text-5xl font-bold text-gray-800 lg:top-34 pt-10 mb-8 md:mb-16 z-10 pointer-events-none select-none"
+    <h1 class="w-full text-center text-3xl md:text-5xl font-bold text-gray-800 lg:top-34 pt-10 mb-8 md:mb-16 z-10 pointer-events-none select-none"
         style=" /* fine tune: move higher or lower with pt-10 or top-0/1/2 etc. */
     ">
         Contact
-    </h2>
+    </h1>
     <div class="flex flex-col justify-center md:flex-row gap-12 md:gap-20">
       <!-- Contact Form -->
       <form v-if="!isEmailSent" class="flex-1 bg-white rounded-xl border border-[#C6B2A8] px-6 py-7 max-w-2xl" @submit.prevent="sendMail">

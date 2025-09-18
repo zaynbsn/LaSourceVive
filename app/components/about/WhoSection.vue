@@ -2,7 +2,7 @@
   <section class="container max-w-5xl mx-auto md:-mt-16 pb-16 px-4 flex flex-col md:flex-row gap-8 items-center md:items-start">
     <!-- Left Content -->
     <div class="flex-1">
-      <h2 class="text-3xl md:text-4xl font-bold mb-8 text-[#61848D]">Mon parcours</h2>
+      <h1 class="text-3xl md:text-4xl font-bold mb-8 text-[#61848D]">Mon parcours</h1>
       
         <div class="mb-12 text-[#61848D]">
             <p class=" mb-3">
