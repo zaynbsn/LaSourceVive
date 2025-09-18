@@ -5,7 +5,7 @@
     <ul class="list-disc text-base space-y-1 ml-6 lg:ml-0">
       
       <li>
-        2023
+        2025
         <ul class="list-disc list-inside text-base space-y-1">
           <li>Webinaire Fonctions exécutives et apprentissages</li>
           <li>Conférence : L’ouspsologie Pierre Paul Gagné</li>
