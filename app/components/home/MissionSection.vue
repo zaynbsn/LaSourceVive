@@ -28,7 +28,7 @@
             <span class="w-16 border-b-5 border-dotted border-[#61848D]"></span>
           </div>
           <p class="text-base">
-            Entretien téléphonique <br /> Entretien au préalable en présence de la famille <br /> Mise en lumière des besoins
+            Entretien téléphonique <br /> Premier entretien orthopédagogique en présence de la famille <br /> Mise en lumière des besoins
           </p>
           
         </div>

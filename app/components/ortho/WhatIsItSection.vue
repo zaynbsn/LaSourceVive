@@ -9,7 +9,7 @@
       </p>
       
       <p class="mb-2">
-        Elle prend appuie sur les recherches en neurosciences (fonctionnement du cerveau qui apprend), sur la métacognition (la pédagogie des gestes mentaux).
+        Elle prend appui sur les recherches en neurosciences (fonctionnement du cerveau qui apprend), sur la métacognition (la pédagogie des gestes mentaux).
       </p>
       
       <p class="mb-2">
@@ -23,7 +23,7 @@
       <h2 class="text-xl md:text-2xl font-semibold mb-4">Son essor</h2>
 
       <p class="mb-8">
-        Implantée au Canada dès les années 60, l'orthopédagogie est également dévollopée en Belgique, au Danemark, en Suisse. <br /> En France, ce métier est en pleine structuration et depuis une dizaine d'années, différentes écoles de formation ont vu le jour.
+        Implantée au Canada dès les années 60, l'orthopédagogie est également dévoloppée en Belgique, au Danemark, en Suisse. <br /> En France, ce métier est en pleine structuration et depuis une dizaine d'années, différentes écoles de formation ont vu le jour.
       </p>
       
       
@@ -38,7 +38,7 @@
       <p class="mb-2">Il prend en compte les particularités et l'environnement de la personne et s'appuie sur son fonctionnement affectif et cognitif.</p>
       <p class="mb-2">L'orthopédagogue s'assure de l'engagement de la personne pour la guider vers l'autonomie dans ses apprentissages.</p>
       <p class="mb-2"> Il collabore avec l'entourage de la personne : sa famille, les professionels de l'éducation et/ou de la réeducation.</p> 
-      <p class="mb-2"> Cependant l'accompagnement reste d'ordre pédagogique. Il ne subtitue en aucun cas aux suivis thérapeutiques assurés par d'autres spécialistes.</p> 
+      <p class="mb-2"> Cependant l'accompagnement reste d'ordre pédagogique. Il ne se substitue en aucun cas aux suivis thérapeutiques assurés par d'autres spécialistes.</p> 
     </div>
 
    

@@ -19,7 +19,7 @@
           <li>Conférence : Retrouver le sens au coeur des apprentissages L’ouspsologie - Guy Sonnois</li>
           <li>Formation : La motivation - Cédrine Sunyer</li>
           <li>Formation : La stimulation cognitive- Niveau Avancé - La Fabrique à Neurones</li>
-          <li>Formation : TND - Jérome Bianchi</li>
+          <li>Formation : TND - Jérôme Bianchi</li>
         </ul>
       </li>      
       

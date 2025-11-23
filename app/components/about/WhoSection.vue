@@ -9,7 +9,7 @@
                 Après une première carrière de traductrice, je me suis formée au Canada à la pédagogie de l'enseignement aux jeunes enfants. <br /><span class="font-medium">"Maitresse d'Anglais"</span>  depuis 20 ans et maman de 3 enfants, j'ai, au fil des années, remis en question l'efficacité de ma façon de transmettre le savoir.
             </p>
             <p class=" mb-3">
-                C'est une expérience de 3 années à l'école MeeO (structure qui scolarisait des enfants neuro atypiques à Annecy le vieux), qui va me conduire à <span class="font-medium">l'orthopédagogie.</span>
+                C'est une expérience de 3 années à l'école MeeO (structure qui scolarisait des enfants neuroatypiques à Annecy le vieux), qui va me conduire à <span class="font-medium">l'orthopédagogie.</span>
             </p>
             <p class="">
                 Au cours de ma formation, je suis fascinée de découvrir mes propres fonctionnements cognitifs et émotionnels face aux apprentissages ainsi que ceux de mes collègues !
