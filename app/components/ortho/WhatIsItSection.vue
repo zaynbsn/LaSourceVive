@@ -23,7 +23,7 @@
       <h2 class="text-xl md:text-2xl font-semibold mb-4">Son essor</h2>
 
       <p class="mb-8">
-        Implantée au Canada dès les années 60, l'orthopédagogie est également dévoloppée en Belgique, au Danemark, en Suisse. <br /> En France, ce métier est en pleine structuration et depuis une dizaine d'années, différentes écoles de formation ont vu le jour.
+        Implantée au Canada dès les années 60, l'orthopédagogie est également développée en Belgique, au Danemark, en Suisse. <br /> En France, ce métier est en pleine structuration et depuis une dizaine d'années, différentes écoles de formation ont vu le jour.
       </p>
       
       
