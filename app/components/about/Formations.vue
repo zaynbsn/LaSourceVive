@@ -9,6 +9,7 @@
         <ul class="list-disc list-inside text-base space-y-1">
           <li>Webinaire Fonctions exécutives et apprentissages</li>
           <li>Conférence : L’oupsologie - Pierre Paul Gagné</li>
+          <li>4ème colloque : "L'orthopedagogie dans la prise en charge des TND"</li>
         </ul>
       </li>
 
