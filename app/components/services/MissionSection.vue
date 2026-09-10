@@ -82,7 +82,7 @@
             </div>
             <h4 class="text-base font-medium mb-2 text-gray-800">En séances individuelles au cabinet</h4>
             <p class="text-[#61848d] text-base">
-              élèves du primaire  50mn + 10mn de débriefing avec le parent   - 47€ -
+              élèves du primaire  50mn + 10mn de débriefing avec le parent   - 48€ -
               <br/>élèves du secondaires, étudiants, adultes	 - 1h  62€ - 
                   - 1h30  84€ -
             </p>
