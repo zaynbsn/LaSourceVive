@@ -14,7 +14,7 @@ import SvgForms2 from '../svg/forms2.vue';
       <div class="w-full flex flex-col justify-center items-start text-[#61848d]">
         <h2 class="text-xl md:text-2xl font-semibold mb-4">En savoir plus</h2>
         <p class="text-base md:text-base text-[#61848d] mb-6 max-w-lg">
-          L'Union des Orthopédagogues de France référence les professionnels certifiés qui s'engagent à respecter la charte déontologique UOF et à en respecter les valeurs.
+          L'Union des Orthopédagogues de France référencie les professionnels certifiés qui s'engagent à respecter la charte déontologique UOF et à en respecter les valeurs.
         </p>
         <a
           href="https://www.orthopedagogues.fr/"

@@ -83,8 +83,7 @@
             <h4 class="text-base font-medium mb-2 text-gray-800">En séances individuelles au cabinet</h4>
             <p class="text-[#61848d] text-base">
               élèves du primaire  50mn + 10mn de débriefing avec le parent   - 48€ -
-              <br/>élèves du secondaires, étudiants, adultes	 - 1h  62€ - 
-                  - 1h30  84€ -
+              <br/>élèves du secondaires, étudiants, adultes	 - 1h : 62€ / 1h30 : 84€ -
             </p>
             <h4 class="text-base font-medium mb-2 mt-4 text-gray-800">En séances collectives au cabinet</h4>
             <p class="text-[#61848d] text-base">
@@ -102,8 +101,10 @@
               Selon le cas, et avec l’accord de l’équipe enseignante, j'effectue des séances d'observation de l'apprenant en classe. 
               
             </p>
+            <br/>
             <p class="text-[#61848d] text-base">
-              Sont compris dans les prestations: le temps de restitution des observations à la famille, la prise de contact avec les enseignants et autres spécialistes qui interviennent auprès de l'apprenant.
+              <span class="text-gray-800">Compris dans les prestations:</span> 
+              <br/> Le temps de restitution des observations à la famille, la prise de contact avec les enseignants et autres spécialistes qui interviennent auprès de l'apprenant.
               <br/> Le nombre et la fréquence des séances s’ajustent pour répondre aux besoins de chacun.  
             </p>
           </div>

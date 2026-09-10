@@ -1,6 +1,7 @@
 <template>
   <section class="max-w-5xl mx-auto px-4 text-[#61848d]">
-    <h2 class="text-3xl md:text-4xl font-bold mb-8">Mes formations continues</h2>
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Mes formations continues</h2>
+    <h3 class="text-3xl md:text-base font-bold mb-8">Pour actualiser mes connaissances et consolider mes compétences de façon régulière.</h3>
 
     <ul class="list-disc text-base space-y-1 ml-6 lg:ml-0">
       
